@@ -1,0 +1,16 @@
+
+# while configuring git for first time you have give name & e-mail
+exp:
+
+git config --global user.name "Gopi shankar"
+
+git config --global user.email "shankaryenumula5@gmail.com"
+
+
+
+# INITIALIZING GIT:-
+
+Git know that it should watch the folder you initiated, git creates a hidden folder to keep track changes 
+
+  git init
+
