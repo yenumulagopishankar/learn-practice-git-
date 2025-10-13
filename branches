@@ -1,0 +1,3 @@
+In git, a branch is a new / seperate version of the main repository.
+
+branches allow you to work on different parts of a project without impacting main branch.when the work is completed a branch can be mergrd with main branch
