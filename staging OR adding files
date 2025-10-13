@@ -1,0 +1,5 @@
+staged files are files that ready to be commited to the repository.
+when we first add files, these files are untracked, to get git to track them. you need to stage them first.
+#commands:
+  git add . (add all the files) _OR_: git add --all _OR_: git add -A
+  git add <file name> (to add single file)
