@@ -1,3 +1,30 @@
 In git, a branch is a new / seperate version of the main repository.
 
 branches allow you to work on different parts of a project without impacting main branch.when the work is completed a branch can be mergrd with main branch
+
+# making a new branch 
+
+git branch -c " new branch name" _OR_ git branch <name of the branch>
+
+# list the branches 
+
+ git branch -a OR git branch
+
+ # switching to new branch 
+  
+  git checkout <branch name > OR  git switch <branch name> (switching the branches)
+
+ # deleting branch 
+  
+  git branch -d <branch name> (deletes the branch>
+
+ #making a new branch and switching to new brach
+ 
+ git checkout -b < branch name > ( this lets you createnew branch and switch to it ) -b is branch
+
+ # merging branch 
+ 
+   to merge the branch you have to be be in the main branch and run the command 
+
+   git merge <branch name>
+
