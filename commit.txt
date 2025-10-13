@@ -10,3 +10,6 @@ sometimes when you make small changes, using the staging enivronment seems like 
 that means create a file & run following command
 
 git commit -a -m " commiting the file with skipping staging env"
+
+# to use this this should already staged and when you modify the file we can run the "git commit -am "message" "with out staging "git add " 
+
