@@ -1,0 +1,29 @@
+
+# to create repository go to git hub and make a new repositorie
+and copy the "url"
+
+  # add all the local files to remote repo 
+
+  :- git add remote origin URL
+
+  # PUSH  (if you have modified the files in locally, you need to push them to remote "github")
+ 
+
+   :- git push origin main
+
+  # if you wanted push the files to branches 
+   :- git push origin <branch name>
+ 
+ # PULL (if you have modified the files in remote, you need to pull them locally git pull means "git fetch + git mergr")
+
+ WHEN YOU RUN "git pull origin main" IT FIRST FETCH THE COMMITS IN REMOTE REPO AND MERGE THEM LOCALLY
+ 
+ :git pull origin main
+
+ :git pull origin --rebase 
+  
+ # TO LIST ALL THE CONFIGURED REMOTE REPOSITORIES
+
+   git remote -v
+
+
