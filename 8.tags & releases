@@ -1,1 +1,52 @@
+# TAGS & RELEASES
+Tag = it notihing but marking at particular commit of it's release
+exp: commit id 1) qwer23
+              2) bfrg5 --> relese point at this tag,here we can tag like v1.0
+               3)bhyt7 
+                4) yut6798 --> second release, we can mark tag like v2.0
+
+******DIFFERENT TYPES OF TAGS ************
+ LIGHTWEIGHT TAGS == these tags are just like bookmark, doesn't save metadat 
+  # git tag v1.0
+
+ANNOTATED TAGS = stores extra info like tagger name, name, email,tag message & we can write a message to this tag
+
+      # git tag -a v1.0 -m "message"
+
+***VIEWING TAGS******
+  #git tag 
+  # git tag -l or git tag --list
+
+*******SEE SPECIFIC TAG *********
+git show v1.0
+
+************DIFF B/W TAGS ***************
+# git diff tag1 tag2
+**************DELETE TAG LOCALLY & REMOTE ******************
+# git tag -d v1.0 = locally
+# git push origin --delete v1.0 = remote
+
+**************CREATE A TAG FOR OLDER COMMIT  ************
+# git tag v1.0 <cmt.id> =ligtweight
+# git tag -a v1.0 -m "message" <cmt.id> = annotated tag
+
+************ FORCE TAG ************
+you have a tag v1.0 pointing to an old commit, but you want it to point to the latest commit
+# git tag -f v1.0  => tags to new commit id 
+# git tag -f v1.0 <cmt.id> for specific commit 
+*************FOR ANNOTATED TAG*********
+# git tag -a v1.0 -f -m "message" &  -m "message" <cmt.id> for specfic
+or use HEAD~1 at the end for last second commit 
+
+*********PUSH TAGS ***********
+# git push origin v1.0
+# git push origin --all (to push all the tags)
+********PATTERN SEARCH*************
+# git tag -list "v1.*" (displays all the tags starts with v1)
+
+
+
+
+
+
 
