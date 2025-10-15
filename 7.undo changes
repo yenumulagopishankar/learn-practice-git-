@@ -1,1 +1,35 @@
+<<<<<<< HEAD
+=======
+#git rollback commands are used to undo changes at different leves :
+1) unstaged changes
+1.1: undo changes in unstaged 
+# git checkout --<file>
+exp: git checkout --index.file (this will discard the changes permanently in the file)
+
+2)staged changes
+2.1 : undo changes in staged area
+#git reset <file> OR git restore --staged <file>
+exp: git reset index.file (this file remains in directory but not in staging)
+
+3)commited changes 
+3.1: undo last commited changes
+# git reset --soft HEAD~1 (HEAD~1 means one commit before the current HEAD.)
+keeps the file staged, but uncommits the file 
+
+3.2: undo the last commit & unstage the file 
+   # git reset --mixed HEAD~1 (Keeps the channges in working dir but UNSTAGED.)
+3.3 Undo the last commit and discard changes permanently
+   # git reset --hard HEAD~1 (Removes the last commit & discard all changes.)
+3.4 REVERT a commit (without removing history)
+   # git revert <git id>
+     exp: git revert a1b2c3d4
+
+4) pushed commits
+4.1: undo the pushed commits
+# git revert <commit-hash>
+4.2: force push(dangerous in production)
+git reset --hard <commit-hash>
+git push --force 
+this rewrites history and can break other's clone.
+>>>>>>> 4924b6d47f9da3250cd7f68d1046b74f5440e588
 
