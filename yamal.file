@@ -1,11 +1,11 @@
 devops:
-    "skil":"devops",
-     "year":2025,
-      "tech":
-            "cloud":"aws",
-            "containers":"k8's",
-            "cicd":"jenkins,
+    "skil": "devops"
+    "year": 2025
+    "tech":
+            "cloud": "aws"
+            "containers": "k8's"
+            "cicd": "jenkins"
             "gitops":
-                 -"gitlab",
-                 -"Argocd",
-                 -"Tekton"
+               - "gitlab"
+               - "Argocd"
+               - "Tekton"
