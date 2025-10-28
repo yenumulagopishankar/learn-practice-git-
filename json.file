@@ -1,0 +1,3 @@
+devops={"skil":"devops", "year":2025, "tech":{"cloud":"aws", "containers":"k8's", "cicd":"jenkins,"gitops":["gitlab", "Argocd", "Tekton"]} }
+
+print (devops)
