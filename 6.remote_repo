@@ -4,15 +4,24 @@ and copy the "url"
 
   # add all the local files to remote repo 
 
-  :- git add remote origin URL
+  :- git add remote origin URL OR git remote add origin <url>
 
   # PUSH  (if you have modified the files in locally, you need to push them to remote "github")
  
 
-   :- git push origin main
+   :- git push origin main 
 
   # if you wanted push the files to branches 
    :- git push origin <branch name>
+
+:- git push -u origin main
+.pushes your local main branch to the remote origin/maain
+
+' sets a permanent link(upstream) between them
+in future use simply -- git push | git pull 
+no need to use:
+- git push origin main
+- git pull origin main 
  
  # PULL (if you have modified the files in remote, you need to pull them locally git pull means "git fetch + git mergr")
 
