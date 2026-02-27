@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 #git rollback commands are used to undo changes at different leves :
 1) unstaged changes
 1.1: undo changes in unstaged 
@@ -29,4 +31,5 @@ keeps the file staged, but uncommits the file
 git reset --hard <commit-hash>
 git push --force 
 this rewrites history and can break other's clone.
+>>>>>>> 4924b6d47f9da3250cd7f68d1046b74f5440e588
 
